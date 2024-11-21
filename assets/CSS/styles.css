@@ -1,0 +1,32 @@
+/* Fondo oscuro y texto claro para toda la página */
+body {
+    background-color: #212529; /* Fondo oscuro */
+    color: #f8f9fa; /* Texto claro */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #343a40; /* Fondo oscuro para el navbar */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa; /* Color claro para los enlaces */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #adb5bd; /* Color para el hover */
+}
+
+.navbar-light .navbar-brand {
+    color: #f8f9fa; /* Color claro para la marca */
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #adb5bd; /* Color para el hover de la marca */
+}
+
+/* Estilo para hacer que el navbar sea responsive */
+.navbar-toggler-icon {
+    background-color: #f8f9fa; /* Color claro para el icono de la hamburguesa */
+}
